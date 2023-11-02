@@ -7,7 +7,7 @@ const myAtropos = Atropos({
 
 function downloadFile() {
     const downloadInstnace = document.createElement('a');
-    downloadInstnace.href = "./assets/img/tarjeta-naths.jpg"
+    downloadInstnace.href = "./assets/img/nathaly-yovhio.jpg";
     downloadInstnace.target = "_blank";
     downloadInstnace.download = 'Nathaly Yovhio';
 
