@@ -1,12 +1,8 @@
-# Alert!
+# Important:
 
-Reproduction, reposting or
-modification of the content
-of this site is prohibited.
+Reproduction, reposting or modification of the content of this site is prohibited.
 
-La reproducción, publicación o
-modificación del contenido
-de este sitio está prohibida.
+La reproducción, publicación o modificación del contenido de este sitio está prohibida.
 
 ## Atropos
 
