@@ -43,6 +43,10 @@
   --footer-color: white;
   --footer-autora: #D4E4BC;
   --link-a-hover:#FE5F55;
+
+  /*message*/
+  --message: #c9c2c2;
+  --color-boton-copiar: var(--footer-background);
 }
 
 
@@ -115,21 +119,6 @@ img {
 }
 /*termina estilos de botón*/
 
-
-
-/*footer ejemplo
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: black;
-  color: rgb(255, 255, 255);
-  font-size: 80%;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}*/
-
 footer {
   /*background-color: var(--footer-background);*/
   /*backdrop-filter: blur(3px);*/
@@ -157,6 +146,38 @@ footer a {
 a:hover {
   color: var(--link-a-hover);
 }
+
+#clipboard {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: var(--color-boton-copiar);
+  cursor: pointer;
+  /*buttom glow*/
+  /*-webkit-box-shadow:0px 0px 118px 25px rgba(45,255,196,0.49);
+-moz-box-shadow: 0px 0px 118px 25px rgba(45,255,196,0.49);
+box-shadow: 0px 0px 118px 25px rgba(45,255,196,0.49);*/
+}
+
+
+.clipboard-container {
+  display: flex;
+  justify-content: center;
+}
+
+#message {
+  /*font-family: monospace;*/
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(33, 34, 36);
+  /*background-color: var(--message);*/
+  border-radius: 10px;
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
 
 /*ATROPOS JS*/
 .atropos {
